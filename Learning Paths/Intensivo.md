@@ -9,39 +9,69 @@
 * Objetivo: Entender los conceptos clave y dominar escenarios del examen de certificación.
 
 
-## Día 1 - Arquitectura & Storage
+## Día 1 - Introduction, Basic Concepts, Time Travel, Billing, and Views.
 
 **Objetivos**
 
 Comprender a profundidad:
 
-* Arquitectura multi‑cluster shared data
-* Database, schemas, tables (transient, permanent, temporary)
-* Micro‑partitions
-* Time Travel & Fail-safe
-* Clustering automático vs. clustering manual
+1. Arquitectura multi‑cluster shared data.
+    * Storage, Compute, Cloud Services.
+    * Resource Monitors.
+2. Virtual Warehouses. 
+    * Clustering automático vs. clustering manual
+3. Database & Schemas. 
+4. Table Types. 
+    * Transient 
+    * Permanent 
+    * Temporary
+5. Time Travel & Fail-safe.
+    * Before
+    * At
+6. Views.
+    * Non-Materialized View
+    * Materialized View
+    * Secure View
 
 
 **Actividades**
 
-1. Leer documentación oficial de arquitectura
-2. Práctica:
-    * Crear diferentes tipos de tablas
-    * Revisar `SYSTEM$CLUSTERING_INFORMATION`
-3. Preguntas y respuestas de arquitectura y storage (15–20 preguntas).
+1. Realizar los modulos correspondientes a los cursos disponibles en Udemy o Cursera.
+2. Leer [documentación oficial](https://docs.snowflake.com/en/user-guide/) sobre los temas descritos anteriormente.
+3. Práctica:
+    * Realizar ejercicios:
+        * [01_VirtualWarehouse.sql](../Exercises/01_Architecture/01_VirtualWarehouse.sql)
+        * [02_StorageMonitoring.sql](../Exercises/01_Architecture/02_StorageMonitoring.sql)
+        * [03_DatabasesSchemas.sql](../Exercises/02_BasicConcepts/03_DatabasesSchemas.sql)
+        * [04_TableTypes.sql](../Exercises/02_BasicConcepts/04_TableTypes.sql)
+        * [05_TimeTravel.sql](../Exercises/03_TimeTravel/05_TimeTravel.sql)
+        * [06_Views.sql](../Exercises/04_Views/06_Views.sql)
+3. [Preguntas](../Documentation/Preguntas/Simulador_Preguntas.ipynb) y respuestas de arquitectura y storage (15–20 preguntas).
 
 **Resultado esperado**
-Dominar cómo Snowflake organiza datos y separa storage/compute.
+* Dominar cómo Snowflake organiza datos y separa storage/compute.
+* Entender funcionamiento de los Virtual Warehouses.
+* Entender los tipos de tablas y sus restricciones.
+* Entender el concepto de Time Travel y sus casos de uso, asi como el Fail-Safe.
+* Entender los diferentes tipos de vistas y sus casos de uso.
 
-## Día 2 – Warehouses & Performance
+
+## Día 2 – Data Loading, Semi-Structured & Unstructured Data
 
 **Objetivos**
 
-* Entender funcionamiento de los Virtual Warehouses:
+1. Data Loading & Unloading.
+    * Stages
+        * User
+        * Named
+        * Internal
+        * External
     * Escalado automático.
     * Clustering & micro‑partition pruning.
     * Query Profile.
     * Caching (persistente y transitorio).
+2. 
+
 * Optimizaciones típicas de Snowflake.
 
 **Actividades**
