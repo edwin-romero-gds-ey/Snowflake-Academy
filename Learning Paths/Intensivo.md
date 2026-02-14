@@ -44,8 +44,8 @@ Comprender a profundidad:
         * [02_StorageMonitoring.sql](../Exercises/01_Architecture/02_StorageMonitoring.sql)
         * [03_DatabasesSchemas.sql](../Exercises/02_BasicConcepts/03_DatabasesSchemas.sql)
         * [04_TableTypes.sql](../Exercises/02_BasicConcepts/04_TableTypes.sql)
-        * [05_TimeTravel.sql](../Exercises/03_TimeTravel/05_TimeTravel.sql)
-        * [06_Views.sql](../Exercises/04_Views/06_Views.sql)
+        * [05_TimeTravel.sql](../Exercises/02_BasicConcepts/05_TimeTravel.sql)
+        * [06_Views.sql](../Exercises/02_BasicConcepts/06_Views.sql)
 3. [Preguntas](../Documentation/Preguntas/Simulador_Preguntas.ipynb) y respuestas de arquitectura y storage (15–20 preguntas).
 
 **Resultado esperado**

@@ -63,7 +63,6 @@ grant select on view test_db.test_schema.test_mv_secure to role analyst_role;
 ---> Execute this in snowsight as the recently created user.
 ---> Review DDL statement for the existing views
 select get_ddl('view', 'test_mv');
-
 select get_ddl('view', 'test_db.test_schema.test_mv_secure');
 
 
